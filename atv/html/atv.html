@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    
+</head>
+<body>
+    
+    <section id="conteudo">
+        
+        <div class="conteudo">
+             <img src="../img/doces.jpg" class="img">
+            
+                <form>
+                    <div class="login">
+                        Login
+                    </div>
+
+                    <label>
+                        <span><b>Nome</b></span><br>
+                        <input id="nome" type="text" placeholder="Seu nome" pattern="{3,}" required title="Preencha todos os campos">
+                        
+                    </label><br>
+
+                    <label>
+                        <span><b>Senha</b></span><br>
+                        <input id="senha" type="password" placeholder="Apenas números" pattern="[0-9]+$" required title="Apenas números">
+                    </label>
+                    <br>
+                    <button onclick="Entrar()" class="butao">Enviar</button>
+                </form> 
+                
+            </div>
+    </section>
+    <script type="text/javascript" src="../js/js.js"></script>
+</body>
+</html>
